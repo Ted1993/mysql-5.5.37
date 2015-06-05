@@ -4,7 +4,7 @@ MAINTAINER xuqiangqiang "739827282@qq.com"
 
 RUN  yum -y install tar gcc-c++ supervisor ncurses-devel libtool bison bison-devel libaio libaio-devel
 
-env MYSQL_BIN  /data/server/mysql/bin
+ENV MYSQL_BIN  /data/server/mysql/bin
 
 ADD ./install_mysql-5.5.37.sh	/root/tools/install_mysql-5.5.37.sh
 ADD ./supervisord.conf		/etc/supervisord.conf
