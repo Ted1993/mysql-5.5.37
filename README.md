@@ -1,8 +1,8 @@
 # Installation
 
-docker build -t <name>/mysql:5.5.37 .
+docker build -t mysql:5.5.37 .
 
 # Usage
 
-docker run -d -P <name>/mysql:5.5.37
+docker run -d -P mysql:5.5.37
 
